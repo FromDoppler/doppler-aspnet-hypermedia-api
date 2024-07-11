@@ -1,4 +1,4 @@
-# MakingSense AspNet HypermediaApi Helpers
+# Doppler AspNet HypermediaApi Helpers
 
 This library pretends to expose some models and utilities useful to create an Hypermedia API using ASP.NET 5 Framework.
 
@@ -156,12 +156,12 @@ This middleware render all exceptions as Problem Details (See [Problem Details f
 
 It catches:
 
-* `Response.StatusCode == 401 (Unauthorized)` and render an `MakingSense.AspNetCore.HypermediaApi.Problems.UnauthorizedProblem`
-* `Response.StatusCode == 403 (Forbidden)` and render a `MakingSense.AspNetCore.HypermediaApi.Problems.ForbiddenProblem`
-* `Response.StatusCode == 404 (Not Found)` and render a `MakingSense.AspNetCore.HypermediaApi.Problems.RouteNotFoundProblem`
-* Any `MakingSense.AspNetCore.Authentication.Abstractions.AuthenticationException` and render them as `MakingSense.AspNetCore.HypermediaApi.Problems.AuthenticationErrorProblem`
-* Any `MakingSense.AspNetCore.HypermediaApi.ExceptionHandling.ApiException` and render the inner problem (`Problem` property)
-* Any _unhandled exception_ and render them as `MakingSense.AspNetCore.HypermediaApi.Problems.UnexpectedProblem`
+* `Response.StatusCode == 401 (Unauthorized)` and render an `Doppler.AspNetCore.HypermediaApi.Problems.UnauthorizedProblem`
+* `Response.StatusCode == 403 (Forbidden)` and render a `Doppler.AspNetCore.HypermediaApi.Problems.ForbiddenProblem`
+* `Response.StatusCode == 404 (Not Found)` and render a `Doppler.AspNetCore.HypermediaApi.Problems.RouteNotFoundProblem`
+* Any `Doppler.AspNetCore.Authentication.Abstractions.AuthenticationException` and render them as `Doppler.AspNetCore.HypermediaApi.Problems.AuthenticationErrorProblem`
+* Any `Doppler.AspNetCore.HypermediaApi.ExceptionHandling.ApiException` and render the inner problem (`Problem` property)
+* Any _unhandled exception_ and render them as `Doppler.AspNetCore.HypermediaApi.Problems.UnexpectedProblem`
 
 Basic Configuration example:
 

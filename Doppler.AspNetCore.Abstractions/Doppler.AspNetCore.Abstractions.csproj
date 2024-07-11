@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Doppler.AspNetCore.Abstractions Class Library</Description>
+    <Authors>Doppler</Authors>
+    <TargetFrameworks>netstandard1.2;netstandard2.0</TargetFrameworks>
+    <AssemblyName>Doppler.AspNetCore.Abstractions</AssemblyName>
+    <PackageId>Doppler.AspNetCore.Abstractions</PackageId>
+    <PackageTags>ASP.NET;ASP.NET Core</PackageTags>
+    <PackageProjectUrl>https://github.com/FromDoppler/doppler-aspnet-hypermedia-api</PackageProjectUrl>
+    <PackageLicenseUrl>http://www.gnu.org/licenses/lgpl.html</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>git://github.com/FromDoppler/doppler-aspnet-hypermedia-api</RepositoryUrl>
+    <Version>2.2.0-alpha</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+    <PackageReference Include="System.Threading" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
