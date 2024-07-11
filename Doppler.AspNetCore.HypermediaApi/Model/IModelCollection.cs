@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Model
+namespace Doppler.AspNetCore.HypermediaApi.Model
 {
 	public interface IModelCollection
 	{

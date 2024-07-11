@@ -11,7 +11,7 @@ using Newtonsoft.Json;
 using MvcJsonOptions = Microsoft.AspNetCore.Mvc.MvcNewtonsoftJsonOptions;
 #endif
 
-namespace MakingSense.AspNetCore.HypermediaApi.Formatters.Internal
+namespace Doppler.AspNetCore.HypermediaApi.Formatters.Internal
 {
 	public class HypermediaApiMvcOptionsSetup : ConfigureOptions<MvcOptions>
 	{

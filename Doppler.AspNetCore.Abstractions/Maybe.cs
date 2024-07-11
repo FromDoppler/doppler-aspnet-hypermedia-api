@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MakingSense.AspNetCore.Abstractions
+namespace Doppler.AspNetCore.Abstractions
 {
 	public static class Maybe
 	{

@@ -1,9 +1,9 @@
-﻿using MakingSense.AspNetCore.HypermediaApi.Linking;
+﻿using Doppler.AspNetCore.HypermediaApi.Linking;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Model
+namespace Doppler.AspNetCore.HypermediaApi.Model
 {
 	public abstract class BaseModel
 	{

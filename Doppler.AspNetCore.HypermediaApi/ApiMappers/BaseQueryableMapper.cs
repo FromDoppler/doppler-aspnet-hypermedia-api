@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace MakingSense.AspNetCore.HypermediaApi.ApiMappers
+namespace Doppler.AspNetCore.HypermediaApi.ApiMappers
 {
 	/// <summary>
 	/// It helps to create a IQueryable friendly mapper.

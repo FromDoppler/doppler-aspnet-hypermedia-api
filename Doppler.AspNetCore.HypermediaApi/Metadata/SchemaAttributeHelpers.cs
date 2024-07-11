@@ -1,9 +1,9 @@
-﻿using MakingSense.AspNetCore.Utilities;
+﻿using Doppler.AspNetCore.Utilities;
 using System;
 using System.Linq;
 using System.Reflection;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Metadata
+namespace Doppler.AspNetCore.HypermediaApi.Metadata
 {
 	public static class SchemaAttributeHelpers
 	{

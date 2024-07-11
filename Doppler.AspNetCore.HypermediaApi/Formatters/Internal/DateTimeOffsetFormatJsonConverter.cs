@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using MakingSense.AspNetCore.HypermediaApi.Utilities;
+using Doppler.AspNetCore.HypermediaApi.Utilities;
 using Newtonsoft.Json;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Formatters.Internal
+namespace Doppler.AspNetCore.HypermediaApi.Formatters.Internal
 {
 	public class DateTimeOffsetFormatJsonConverter : JsonConverter
 	{

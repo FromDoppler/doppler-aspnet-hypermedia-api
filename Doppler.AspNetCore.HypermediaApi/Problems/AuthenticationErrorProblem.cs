@@ -1,4 +1,4 @@
-﻿namespace MakingSense.AspNetCore.HypermediaApi.Problems
+﻿namespace Doppler.AspNetCore.HypermediaApi.Problems
 {
 	public class AuthenticationErrorProblem : AuthenticationProblem
 	{

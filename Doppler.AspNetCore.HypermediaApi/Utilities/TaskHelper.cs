@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MakingSense.AspNetCore.Utilities
+namespace Doppler.AspNetCore.Utilities
 {
     public static class TaskHelper
     {

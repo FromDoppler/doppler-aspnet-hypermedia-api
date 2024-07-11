@@ -1,9 +1,9 @@
 ﻿using System;
-using MakingSense.AspNetCore.HypermediaApi.ExceptionHandling;
+using Doppler.AspNetCore.HypermediaApi.ExceptionHandling;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Framework.Internal;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Problems
+namespace Doppler.AspNetCore.HypermediaApi.Problems
 {
 	public abstract class NotFoundProblem : Problem
 	{

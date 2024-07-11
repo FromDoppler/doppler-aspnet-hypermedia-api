@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Utilities
+namespace Doppler.AspNetCore.HypermediaApi.Utilities
 {
 	public class QueryTasksCache<TKey, TResult>
 	{

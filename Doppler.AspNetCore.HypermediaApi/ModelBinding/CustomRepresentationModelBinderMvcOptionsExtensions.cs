@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using MakingSense.AspNetCore.HypermediaApi.ModelBinding;
+using Doppler.AspNetCore.HypermediaApi.ModelBinding;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Microsoft.Extensions.DependencyInjection

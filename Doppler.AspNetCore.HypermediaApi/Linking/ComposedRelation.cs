@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Linking
+namespace Doppler.AspNetCore.HypermediaApi.Linking
 {
 	public class ComposedRelation : IRelation
 	{

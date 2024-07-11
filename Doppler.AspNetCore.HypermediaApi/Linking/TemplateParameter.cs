@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Linking
+namespace Doppler.AspNetCore.HypermediaApi.Linking
 {
 	public class TemplateParameter
 	{

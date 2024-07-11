@@ -1,15 +1,15 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
-using MakingSense.AspNetCore.Abstractions;
-using MakingSense.AspNetCore.HypermediaApi.Linking;
-using MakingSense.AspNetCore.HypermediaApi.Linking.StandardRelations;
-using MakingSense.AspNetCore.HypermediaApi.Metadata;
+using Doppler.AspNetCore.Abstractions;
+using Doppler.AspNetCore.HypermediaApi.Linking;
+using Doppler.AspNetCore.HypermediaApi.Linking.StandardRelations;
+using Doppler.AspNetCore.HypermediaApi.Metadata;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Net.Http.Headers;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Model
+namespace Doppler.AspNetCore.HypermediaApi.Model
 {
 	[Schema(typeof(CreationResult))]
 	public class CreationResult : MessageResult, IActionResult

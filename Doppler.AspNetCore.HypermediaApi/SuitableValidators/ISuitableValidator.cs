@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using MakingSense.AspNetCore.HypermediaApi.ExceptionHandling;
-using MakingSense.AspNetCore.HypermediaApi.Linking;
+using Doppler.AspNetCore.HypermediaApi.ExceptionHandling;
+using Doppler.AspNetCore.HypermediaApi.Linking;
 using System.Threading.Tasks;
-using MakingSense.AspNetCore.Abstractions;
+using Doppler.AspNetCore.Abstractions;
 
-namespace MakingSense.AspNetCore.HypermediaApi.SuitableValidators
+namespace Doppler.AspNetCore.HypermediaApi.SuitableValidators
 {
 	public interface ISuitableValidator
 	{

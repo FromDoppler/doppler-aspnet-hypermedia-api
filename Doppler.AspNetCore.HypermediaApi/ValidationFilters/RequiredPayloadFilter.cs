@@ -2,14 +2,14 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using MakingSense.AspNetCore.HypermediaApi.Problems;
-using MakingSense.AspNetCore.HypermediaApi.ExceptionHandling;
-using MakingSense.AspNetCore.HypermediaApi.Metadata;
+using Doppler.AspNetCore.HypermediaApi.Problems;
+using Doppler.AspNetCore.HypermediaApi.ExceptionHandling;
+using Doppler.AspNetCore.HypermediaApi.Metadata;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.Framework.Internal;
 
-namespace MakingSense.AspNetCore.HypermediaApi.ValidationFilters
+namespace Doppler.AspNetCore.HypermediaApi.ValidationFilters
 {
 	public class RequiredPayloadFilter : IActionFilter
 	{

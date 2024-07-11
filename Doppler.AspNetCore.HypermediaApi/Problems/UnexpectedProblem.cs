@@ -1,9 +1,9 @@
-﻿using MakingSense.AspNetCore.HypermediaApi.ExceptionHandling;
+﻿using Doppler.AspNetCore.HypermediaApi.ExceptionHandling;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Linq;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Problems
+namespace Doppler.AspNetCore.HypermediaApi.Problems
 {
 	public class UnexpectedProblem : Problem
 	{

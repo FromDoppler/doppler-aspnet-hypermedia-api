@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Utilities
+namespace Doppler.AspNetCore.HypermediaApi.Utilities
 {
 	public static class DateTimeHelper
 	{

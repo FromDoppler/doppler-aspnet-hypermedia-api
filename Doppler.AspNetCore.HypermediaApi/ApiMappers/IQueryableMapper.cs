@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MakingSense.AspNetCore.HypermediaApi.ApiMappers
+namespace Doppler.AspNetCore.HypermediaApi.ApiMappers
 {
 	public interface IQueryableMapper<TIn, TOut>
 	{

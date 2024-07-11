@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Linking.VirtualRelations
+namespace Doppler.AspNetCore.HypermediaApi.Linking.VirtualRelations
 {
 	public class NotImplementedRelation : IRelation
 	{

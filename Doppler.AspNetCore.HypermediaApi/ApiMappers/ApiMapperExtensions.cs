@@ -1,11 +1,11 @@
-﻿using MakingSense.AspNetCore.Abstractions;
-using MakingSense.AspNetCore.HypermediaApi.Model;
+﻿using Doppler.AspNetCore.Abstractions;
+using Doppler.AspNetCore.HypermediaApi.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MakingSense.AspNetCore.HypermediaApi.ApiMappers
+namespace Doppler.AspNetCore.HypermediaApi.ApiMappers
 {
 	[System.Diagnostics.DebuggerStepThrough]
 	public static class ApiMapperExtensions

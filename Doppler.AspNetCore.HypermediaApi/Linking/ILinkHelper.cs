@@ -1,10 +1,10 @@
-﻿using MakingSense.AspNetCore.Abstractions;
+﻿using Doppler.AspNetCore.Abstractions;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Linking
+namespace Doppler.AspNetCore.HypermediaApi.Linking
 {
 	public interface ILinkHelper
 	{

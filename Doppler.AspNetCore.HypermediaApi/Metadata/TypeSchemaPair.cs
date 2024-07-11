@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Metadata
+namespace Doppler.AspNetCore.HypermediaApi.Metadata
 {
 	public class TypeSchemaPair
 	{

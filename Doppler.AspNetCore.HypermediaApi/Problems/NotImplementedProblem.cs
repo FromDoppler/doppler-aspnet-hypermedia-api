@@ -1,7 +1,7 @@
-﻿using MakingSense.AspNetCore.HypermediaApi.ExceptionHandling;
+﻿using Doppler.AspNetCore.HypermediaApi.ExceptionHandling;
 using Microsoft.AspNetCore.Http;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Problems
+namespace Doppler.AspNetCore.HypermediaApi.Problems
 {
 	public class NotImplementedProblem : Problem
 	{

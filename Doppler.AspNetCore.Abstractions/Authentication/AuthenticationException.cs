@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace MakingSense.AspNetCore.Authentication.Abstractions
+namespace Doppler.AspNetCore.Authentication.Abstractions
 {
 	public class AuthenticationException : Exception
 	{

@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 using System.Reflection;
-using MakingSense.AspNetCore.HypermediaApi.ApiMappers;
+using Doppler.AspNetCore.HypermediaApi.ApiMappers;
 using Microsoft.Framework.Internal;
 
 namespace Microsoft.Extensions.DependencyInjection

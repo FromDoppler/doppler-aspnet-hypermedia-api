@@ -1,7 +1,7 @@
-﻿using MakingSense.AspNetCore.Abstractions;
+﻿using Doppler.AspNetCore.Abstractions;
 using System;
 
-namespace MakingSense.AspNetCore.HypermediaApi.ExceptionHandling
+namespace Doppler.AspNetCore.HypermediaApi.ExceptionHandling
 {
 	public interface IExceptionProblemDetectionHandler
 	{

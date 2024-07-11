@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Utilities
+namespace Doppler.AspNetCore.HypermediaApi.Utilities
 {
 	public interface ICurrentTimeProvider
 	{
@@ -27,8 +27,8 @@ namespace Microsoft.Extensions.DependencyInjection
 		/// <returns></returns>
 		public static IServiceCollection AddCurrentTimeProvider([Framework.Internal.NotNull] this IServiceCollection services)
 		{
-			return services.AddSingleton<MakingSense.AspNetCore.HypermediaApi.Utilities.ICurrentTimeProvider>(x =>
-				new MakingSense.AspNetCore.HypermediaApi.Utilities.CurrentTimeProvider());
+			return services.AddSingleton<Doppler.AspNetCore.HypermediaApi.Utilities.ICurrentTimeProvider>(x =>
+				new Doppler.AspNetCore.HypermediaApi.Utilities.CurrentTimeProvider());
 		}
 	}
 }

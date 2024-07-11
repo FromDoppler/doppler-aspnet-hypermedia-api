@@ -1,9 +1,9 @@
-﻿using MakingSense.AspNetCore.HypermediaApi.Model;
+﻿using Doppler.AspNetCore.HypermediaApi.Model;
 using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace MakingSense.AspNetCore.HypermediaApi.ExceptionHandling
+namespace Doppler.AspNetCore.HypermediaApi.ExceptionHandling
 {
 	public abstract class Problem : BaseModel
 	{

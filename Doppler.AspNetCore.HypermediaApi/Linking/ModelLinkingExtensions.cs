@@ -1,13 +1,13 @@
-﻿using MakingSense.AspNetCore.Abstractions;
-using MakingSense.AspNetCore.HypermediaApi.Linking;
-using MakingSense.AspNetCore.HypermediaApi.Linking.StandardRelations;
-using MakingSense.AspNetCore.HypermediaApi.Model;
+﻿using Doppler.AspNetCore.Abstractions;
+using Doppler.AspNetCore.HypermediaApi.Linking;
+using Doppler.AspNetCore.HypermediaApi.Linking.StandardRelations;
+using Doppler.AspNetCore.HypermediaApi.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Linking
+namespace Doppler.AspNetCore.HypermediaApi.Linking
 {
 	public static class ModelLinkingExtensions
 	{

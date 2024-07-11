@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Model
+namespace Doppler.AspNetCore.HypermediaApi.Model
 {
 	public static class PaginationConstants
 	{

@@ -1,9 +1,9 @@
-﻿using MakingSense.AspNetCore.HypermediaApi.Linking.StandardRelations;
+﻿using Doppler.AspNetCore.HypermediaApi.Linking.StandardRelations;
 using Newtonsoft.Json;
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Linking
+namespace Doppler.AspNetCore.HypermediaApi.Linking
 {
 	public sealed class Link
 	{

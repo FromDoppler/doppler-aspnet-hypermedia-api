@@ -1,7 +1,7 @@
-﻿using MakingSense.AspNetCore.Utilities;
+﻿using Doppler.AspNetCore.Utilities;
 using System;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Metadata
+namespace Doppler.AspNetCore.HypermediaApi.Metadata
 {
 	[AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = true)]
 	public class SchemaAttribute : Attribute

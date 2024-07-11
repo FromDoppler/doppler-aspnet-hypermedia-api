@@ -1,4 +1,4 @@
-﻿using MakingSense.AspNetCore.HypermediaApi.Linking;
+﻿using Doppler.AspNetCore.HypermediaApi.Linking;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -7,7 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Model
+namespace Doppler.AspNetCore.HypermediaApi.Model
 {
 	/// <summary>
 	/// Represents models with custom representation.

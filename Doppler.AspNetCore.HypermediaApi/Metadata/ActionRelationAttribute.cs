@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using MakingSense.AspNetCore.Abstractions;
-using MakingSense.AspNetCore.HypermediaApi.ExceptionHandling;
-using MakingSense.AspNetCore.HypermediaApi.Linking;
-using MakingSense.AspNetCore.HypermediaApi.Linking.VirtualRelations;
-using MakingSense.AspNetCore.HypermediaApi.SuitableValidators;
-using MakingSense.AspNetCore.Utilities;
+using Doppler.AspNetCore.Abstractions;
+using Doppler.AspNetCore.HypermediaApi.ExceptionHandling;
+using Doppler.AspNetCore.HypermediaApi.Linking;
+using Doppler.AspNetCore.HypermediaApi.Linking.VirtualRelations;
+using Doppler.AspNetCore.HypermediaApi.SuitableValidators;
+using Doppler.AspNetCore.Utilities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.Framework.Internal;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Metadata
+namespace Doppler.AspNetCore.HypermediaApi.Metadata
 {
 	[AttributeUsage(AttributeTargets.Method, AllowMultiple = false, Inherited = false)]
 	public abstract class ActionRelationAttribute : Attribute, IRelation, IActionHttpMethodProvider, IRouteTemplateProvider, IResultFilter

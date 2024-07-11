@@ -1,5 +1,5 @@
 using System;
-using MakingSense.AspNetCore.HypermediaApi.ExceptionHandling;
+using Doppler.AspNetCore.HypermediaApi.ExceptionHandling;
 using Microsoft.Framework.Internal;
 
 namespace Microsoft.AspNetCore.Builder

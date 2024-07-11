@@ -1,4 +1,4 @@
-﻿using MakingSense.AspNetCore.HypermediaApi.Metadata;
+﻿using Doppler.AspNetCore.HypermediaApi.Metadata;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Http;
 using System;
@@ -6,10 +6,10 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Reflection;
-using MakingSense.AspNetCore.HypermediaApi.ExceptionHandling;
-using MakingSense.AspNetCore.Abstractions;
+using Doppler.AspNetCore.HypermediaApi.ExceptionHandling;
+using Doppler.AspNetCore.Abstractions;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Problems
+namespace Doppler.AspNetCore.HypermediaApi.Problems
 {
 	public class ValidationProblem : Problem
 	{

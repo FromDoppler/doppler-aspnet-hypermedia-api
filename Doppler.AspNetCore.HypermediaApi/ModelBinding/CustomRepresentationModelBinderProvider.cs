@@ -4,10 +4,10 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using MakingSense.AspNetCore.HypermediaApi.Model;
+using Doppler.AspNetCore.HypermediaApi.Model;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace MakingSense.AspNetCore.HypermediaApi.ModelBinding
+namespace Doppler.AspNetCore.HypermediaApi.ModelBinding
 {
 	/// <summary>
 	/// Adds support to ICustomRepresentationModel model binding

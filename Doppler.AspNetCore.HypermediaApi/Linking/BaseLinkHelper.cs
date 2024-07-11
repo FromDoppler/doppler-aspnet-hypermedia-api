@@ -6,10 +6,10 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
-using MakingSense.AspNetCore.Abstractions;
-using MakingSense.AspNetCore.HypermediaApi.Linking.VirtualRelations;
-using MakingSense.AspNetCore.HypermediaApi.Metadata;
-using MakingSense.AspNetCore.Utilities;
+using Doppler.AspNetCore.Abstractions;
+using Doppler.AspNetCore.HypermediaApi.Linking.VirtualRelations;
+using Doppler.AspNetCore.HypermediaApi.Metadata;
+using Doppler.AspNetCore.Utilities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Controllers;
@@ -17,7 +17,7 @@ using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.Framework.Internal;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Linking
+namespace Doppler.AspNetCore.HypermediaApi.Linking
 {
 	public abstract class BaseLinkHelper : ILinkHelper
 	{

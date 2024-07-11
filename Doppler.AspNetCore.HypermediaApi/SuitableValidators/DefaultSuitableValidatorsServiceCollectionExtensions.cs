@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 using System.Reflection;
-using MakingSense.AspNetCore.HypermediaApi.SuitableValidators;
+using Doppler.AspNetCore.HypermediaApi.SuitableValidators;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Framework.Internal;
 

@@ -1,5 +1,5 @@
-﻿using MakingSense.AspNetCore.HypermediaApi.Linking;
-using MakingSense.AspNetCore.HypermediaApi.Linking.StandardRelations;
+﻿using Doppler.AspNetCore.HypermediaApi.Linking;
+using Doppler.AspNetCore.HypermediaApi.Linking.StandardRelations;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Model
+namespace Doppler.AspNetCore.HypermediaApi.Model
 {
 	public interface ICollectionPage
 	{

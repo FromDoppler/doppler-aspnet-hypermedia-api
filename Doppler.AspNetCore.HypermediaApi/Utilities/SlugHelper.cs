@@ -2,7 +2,7 @@
 using System;
 using System.Text.RegularExpressions;
 
-namespace MakingSense.AspNetCore.Utilities
+namespace Doppler.AspNetCore.Utilities
 {
     public static class SlugHelper
     {

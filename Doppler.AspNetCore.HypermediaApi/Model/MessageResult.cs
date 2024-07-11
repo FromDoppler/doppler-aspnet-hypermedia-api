@@ -1,9 +1,9 @@
-﻿using MakingSense.AspNetCore.HypermediaApi.Metadata;
+﻿using Doppler.AspNetCore.HypermediaApi.Metadata;
 using Newtonsoft.Json;
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Model
+namespace Doppler.AspNetCore.HypermediaApi.Model
 {
 	//TODO support [Schema] (without parameter)
 	[Schema(typeof(MessageResult))]

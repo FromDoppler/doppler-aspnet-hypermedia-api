@@ -1,11 +1,11 @@
-﻿using MakingSense.AspNetCore.HypermediaApi.ExceptionHandling;
-using MakingSense.AspNetCore.HypermediaApi.Problems;
+﻿using Doppler.AspNetCore.HypermediaApi.ExceptionHandling;
+using Doppler.AspNetCore.HypermediaApi.Problems;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Model
+namespace Doppler.AspNetCore.HypermediaApi.Model
 {
 	[System.Diagnostics.DebuggerStepThrough]
 	public class PaginationParameters

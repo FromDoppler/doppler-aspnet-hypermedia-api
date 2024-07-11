@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Linking.StandardRelations
+namespace Doppler.AspNetCore.HypermediaApi.Linking.StandardRelations
 {
 	public class SelfRelation : IRelation
 	{

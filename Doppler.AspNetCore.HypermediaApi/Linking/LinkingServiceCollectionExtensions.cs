@@ -1,6 +1,6 @@
 using System;
 using System.Linq;
-using MakingSense.AspNetCore.HypermediaApi.Linking;
+using Doppler.AspNetCore.HypermediaApi.Linking;
 using Microsoft.Framework.Internal;
 
 namespace Microsoft.Extensions.DependencyInjection

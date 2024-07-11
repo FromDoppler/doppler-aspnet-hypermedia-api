@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using MakingSense.AspNetCore.HypermediaApi.Metadata;
-using MakingSense.AspNetCore.HypermediaApi.ExceptionHandling;
+using Doppler.AspNetCore.HypermediaApi.Metadata;
+using Doppler.AspNetCore.HypermediaApi.ExceptionHandling;
 using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace MakingSense.AspNetCore.HypermediaApi.SuitableValidators
+namespace Doppler.AspNetCore.HypermediaApi.SuitableValidators
 {
 	public class SuitableValidationFilter : IAsyncActionFilter
 	{

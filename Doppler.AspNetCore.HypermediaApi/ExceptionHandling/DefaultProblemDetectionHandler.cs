@@ -1,11 +1,11 @@
 ﻿using System;
-using MakingSense.AspNetCore.Abstractions;
-using MakingSense.AspNetCore.Authentication.Abstractions;
-using MakingSense.AspNetCore.HypermediaApi.Problems;
+using Doppler.AspNetCore.Abstractions;
+using Doppler.AspNetCore.Authentication.Abstractions;
+using Doppler.AspNetCore.HypermediaApi.Problems;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
-namespace MakingSense.AspNetCore.HypermediaApi.ExceptionHandling
+namespace Doppler.AspNetCore.HypermediaApi.ExceptionHandling
 {
 	public class DefaultProblemDetectionHandler : IContextProblemDetectionHandler, IExceptionProblemDetectionHandler
 	{

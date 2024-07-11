@@ -1,22 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Description>MakingSense.AspNetCore.HypermediaApi Class Library</Description>
-    <Authors>MakingSense</Authors>
+    <Description>Doppler.AspNetCore.HypermediaApi Class Library</Description>
+    <Authors>Doppler</Authors>
 	<TargetFrameworks>net8.0;net7.0;net6.0;netstandard2.0;net452</TargetFrameworks>
-    <AssemblyName>MakingSense.AspNetCore.HypermediaApi</AssemblyName>
-    <PackageId>MakingSense.AspNetCore.HypermediaApi</PackageId>
-    <PackageTags>ASP.NET 5;vnext;Hypermedia;API;REST;ASP.NET Core</PackageTags>
-    <PackageProjectUrl>https://github.com/MakingSense/aspnet-hypermedia-api</PackageProjectUrl>
+    <AssemblyName>Doppler.AspNetCore.HypermediaApi</AssemblyName>
+    <PackageId>Doppler.AspNetCore.HypermediaApi</PackageId>
+    <PackageTags>ASP.NET;Hypermedia;API;REST;ASP.NET Core</PackageTags>
+    <PackageProjectUrl>https://github.com/FromDoppler/doppler-aspnet-hypermedia-api</PackageProjectUrl>
     <PackageLicenseUrl>http://www.gnu.org/licenses/lgpl.html</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>git://github.com/MakingSense/aspnet-hypermedia-api</RepositoryUrl>
+    <RepositoryUrl>git://github.com/FromDoppler/doppler-aspnet-hypermedia-api</RepositoryUrl>
     <Version>2.2.1-alpha</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MakingSense.AspNetCore.Abstractions\MakingSense.AspNetCore.Abstractions.csproj" />
+    <ProjectReference Include="..\Doppler.AspNetCore.Abstractions\Doppler.AspNetCore.Abstractions.csproj" />
   </ItemGroup>
 
   

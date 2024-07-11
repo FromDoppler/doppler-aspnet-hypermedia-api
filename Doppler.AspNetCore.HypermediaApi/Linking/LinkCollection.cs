@@ -1,4 +1,4 @@
-﻿using MakingSense.AspNetCore.Abstractions;
+﻿using Doppler.AspNetCore.Abstractions;
 using Microsoft.Framework.Internal;
 using System;
 using System.Collections;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MakingSense.AspNetCore.HypermediaApi.Linking
+namespace Doppler.AspNetCore.HypermediaApi.Linking
 {
 	public class LinkCollection : ICollection<Link>
 	{

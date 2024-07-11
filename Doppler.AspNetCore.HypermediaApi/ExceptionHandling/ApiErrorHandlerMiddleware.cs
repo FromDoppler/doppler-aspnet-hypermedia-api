@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using MakingSense.AspNetCore.Abstractions;
+using Doppler.AspNetCore.Abstractions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Abstractions;
@@ -9,14 +9,14 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Net.Http.Headers;
 using System.Linq;
-using MakingSense.AspNetCore.HypermediaApi.Metadata;
-using MakingSense.AspNetCore.HypermediaApi.Linking;
+using Doppler.AspNetCore.HypermediaApi.Metadata;
+using Doppler.AspNetCore.HypermediaApi.Linking;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 #if NETFRAMEWORK
 using Microsoft.AspNetCore.Mvc.Internal;
 #endif
 
-namespace MakingSense.AspNetCore.HypermediaApi.ExceptionHandling
+namespace Doppler.AspNetCore.HypermediaApi.ExceptionHandling
 {
 	public class ApiErrorHandlerMiddleware
 	{

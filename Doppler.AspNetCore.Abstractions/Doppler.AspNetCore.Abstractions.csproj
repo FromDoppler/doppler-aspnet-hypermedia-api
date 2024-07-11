@@ -1,16 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Description>MakingSense.AspNetCore.Abstractions Class Library</Description>
-    <Authors>MakingSense</Authors>
+    <Description>Doppler.AspNetCore.Abstractions Class Library</Description>
+    <Authors>Doppler</Authors>
     <TargetFrameworks>netstandard1.2;netstandard2.0</TargetFrameworks>
-    <AssemblyName>MakingSense.AspNetCore.Abstractions</AssemblyName>
-    <PackageId>MakingSense.AspNetCore.Abstractions</PackageId>
-    <PackageTags>ASP.NET 5;vnext;ASP.NET Core</PackageTags>
-    <PackageProjectUrl>https://github.com/MakingSense/aspnet-hypermedia-api</PackageProjectUrl>
+    <AssemblyName>Doppler.AspNetCore.Abstractions</AssemblyName>
+    <PackageId>Doppler.AspNetCore.Abstractions</PackageId>
+    <PackageTags>ASP.NET;ASP.NET Core</PackageTags>
+    <PackageProjectUrl>https://github.com/FromDoppler/doppler-aspnet-hypermedia-api</PackageProjectUrl>
     <PackageLicenseUrl>http://www.gnu.org/licenses/lgpl.html</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>git://github.com/MakingSense/aspnet-hypermedia-api</RepositoryUrl>
+    <RepositoryUrl>git://github.com/FromDoppler/doppler-aspnet-hypermedia-api</RepositoryUrl>
     <Version>2.2.0-alpha</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>

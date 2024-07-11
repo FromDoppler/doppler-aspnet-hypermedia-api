@@ -11,7 +11,7 @@ using MvcJsonOptions = Microsoft.AspNetCore.Mvc.MvcNewtonsoftJsonOptions;
 using JsonInputFormatter = Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter;
 #endif
 
-namespace MakingSense.AspNetCore.HypermediaApi.Formatters
+namespace Doppler.AspNetCore.HypermediaApi.Formatters
 {
 	// TODO: it is difficult to personalize it. Find an alternative.
 	public class HypermediaApiJsonInputFormatter : JsonInputFormatter

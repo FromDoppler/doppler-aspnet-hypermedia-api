@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MakingSense.AspNetCore.HypermediaApi.ExceptionHandling
+namespace Doppler.AspNetCore.HypermediaApi.ExceptionHandling
 {
 	public class ApiException : Exception
 	{

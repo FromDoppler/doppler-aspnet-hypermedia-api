@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace MakingSense.AspNetCore.Utilities
+namespace Doppler.AspNetCore.Utilities
 {
 	public static class HashHelper
 	{
